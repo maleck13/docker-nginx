@@ -1,4 +1,4 @@
-FROM ubuntu:13.10
+FROM ubuntu:14.10
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu saucy main universe" > /etc/apt/sources.list
 RUN apt-get update && apt-get install -y software-properties-common
